@@ -18,12 +18,5 @@ A web-based inventory management system built with PHP and MySQL. Designed to st
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
 - **Version Control**: Git & GitHub
 
-📂 Project Structure
-
-Warehouse_Management_System/ 
-├── WMS/ # Core application files 
-├── config/ # Database configuration 
-├── .gitignore # Ignored files 
-└── README.md # Project documentation
 
 
