@@ -1,0 +1,32 @@
+# OS / Editor
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# PHP / composer / node
+vendor/
+node_modules/
+composer.lock
+
+# App generated / runtime
+logs/
+uploads/
+storage/
+tmp/
+*.log
+
+# Local secrets / environment
+.env
+config/database.php
+includes/email_service.php
+includes/email_service_advanced.php
+*.pem
+
+# Misc
+.DS_Store
+secret-backups/
+email_previews/
+inbox/
+local_inbox/
+sent_emails/

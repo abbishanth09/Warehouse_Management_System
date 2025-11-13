@@ -1,0 +1,4 @@
+-- Example: update a user's password. Replace with your own email and salted hash.
+-- USE warehouse_management;
+-- UPDATE users SET password = 'REPLACE_WITH_BCRYPT_HASH' WHERE username = 'user@example.com';
+-- SELECT username, LEFT(password, 20) as password_start FROM users WHERE username = 'user@example.com';

@@ -1,0 +1,15 @@
+<?php
+/**
+ * Example database configuration.
+ *
+ * Copy this file to `config/database.php` and fill in your real credentials.
+ * Do NOT commit `config/database.php` to version control.
+ */
+
+return [
+    'host' => 'localhost',        // e.g. '127.0.0.1'
+    'username' => 'your_db_user',
+    'password' => 'your_db_password',
+    'dbname' => 'warehouse_management',
+    // Optional: port => 3306,
+];

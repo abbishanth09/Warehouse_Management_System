@@ -1,0 +1,49 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="warehouseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#34495e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5d6d7e;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#85929e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#aeb6bf;stop-opacity:1" />
+    </linearGradient>
+    
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+    </pattern>
+    
+    <pattern id="shelves" width="200" height="150" patternUnits="userSpaceOnUse">
+      <rect x="10" y="20" width="180" height="20" fill="rgba(52,152,219,0.2)" rx="5"/>
+      <rect x="10" y="60" width="180" height="20" fill="rgba(52,152,219,0.15)" rx="5"/>
+      <rect x="10" y="100" width="180" height="20" fill="rgba(52,152,219,0.1)" rx="5"/>
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="100%" height="100%" fill="url(#warehouseGradient)"/>
+  
+  <!-- Grid pattern for warehouse floor -->
+  <rect width="100%" height="100%" fill="url(#grid)" opacity="0.3"/>
+  
+  <!-- Warehouse shelving pattern -->
+  <rect width="100%" height="100%" fill="url(#shelves)" opacity="0.4"/>
+  
+  <!-- Warehouse lights effect -->
+  <circle cx="300" cy="200" r="150" fill="rgba(241,196,15,0.1)"/>
+  <circle cx="800" cy="300" r="120" fill="rgba(241,196,15,0.08)"/>
+  <circle cx="1400" cy="250" r="180" fill="rgba(241,196,15,0.06)"/>
+  <circle cx="1600" cy="600" r="140" fill="rgba(241,196,15,0.05)"/>
+  
+  <!-- Warehouse equipment silhouettes -->
+  <rect x="100" y="800" width="80" height="200" fill="rgba(44,62,80,0.3)" rx="10"/>
+  <rect x="300" y="750" width="60" height="250" fill="rgba(44,62,80,0.25)" rx="8"/>
+  <rect x="1500" y="780" width="90" height="220" fill="rgba(44,62,80,0.2)" rx="12"/>
+  
+  <!-- Forklift silhouette -->
+  <g transform="translate(1200,850)" fill="rgba(231,76,60,0.15)">
+    <rect x="0" y="30" width="80" height="40" rx="5"/>
+    <rect x="70" y="0" width="15" height="30" rx="3"/>
+    <circle cx="15" cy="80" r="12"/>
+    <circle cx="65" cy="80" r="12"/>
+  </g>
+</svg>
